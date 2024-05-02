@@ -21,6 +21,7 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
+    "@stellar/stellar-sdk": "^11.3.0",
     "dotenv": "^16.4.5",
     "stellar-plus": "^0.8.2"
   }

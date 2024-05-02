@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@stellar/stellar-sdk':
+        specifier: ^11.3.0
+        version: 11.3.0
       dotenv:
         specifier: ^16.4.5
         version: 16.4.5
