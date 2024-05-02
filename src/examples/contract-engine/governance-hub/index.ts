@@ -6,6 +6,8 @@ import { loadWasmFile } from "../../../utils";
 import { DebugPlugin } from "stellar-plus/lib/stellar-plus/utils/pipeline/plugins/generic/debug";
 import { SorobanAuthPipelinePlugin } from "stellar-plus/lib/stellar-plus/core/pipelines/soroban-auth/types";
 import { StellarPlus } from "stellar-plus";
+import { SorobanTransactionPipelinePlugin } from "stellar-plus/lib/stellar-plus/core/pipelines/soroban-transaction/types";
+import { ProfilerPlugin } from "stellar-plus/lib/stellar-plus/utils/pipeline/plugins/soroban-transaction/profiler";
 
 // Specification of the contract interface. Contains the encoded data
 // of the contract methods and their parameters. This is used by the
@@ -76,6 +78,13 @@ export const governanceHubWithContractEngineDemo = async () => {
       spec: ghSpec,
       wasm: contractWasmBuffer,
     },
+    // options: {
+    //   sorobanTransactionPipeline: {
+    //     plugins: [
+    //       new DebugPlugin("all") as SorobanTransactionPipelinePlugin,
+    //     ],
+    //   },
+    // },
   });
 
   console.log("\nUploading wasm to the network...");

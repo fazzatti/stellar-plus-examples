@@ -1,5 +1,6 @@
 import { channelAccountsMintingDemo } from "./channel-accounts";
 import { transactXLMWithDebuggerDemo } from "./debugger";
+import { profilerPluginDemo } from "./profiler";
 
 export const plugins = {
   channelAccounts: {
@@ -8,4 +9,5 @@ export const plugins = {
   debugger: {
     loggingPipeline: transactXLMWithDebuggerDemo,
   },
+  profiler: profilerPluginDemo,
 };

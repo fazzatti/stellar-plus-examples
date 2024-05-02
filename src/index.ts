@@ -21,4 +21,4 @@ const examples = {
   errorHandling,
 };
 
-examples.classicTransactionPipeline.multiplePAyments();
+examples.plugins.profiler();
