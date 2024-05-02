@@ -2,8 +2,6 @@ import { DefaultAccountHandler } from "stellar-plus/lib/stellar-plus/account";
 import { TestNet } from "stellar-plus/lib/stellar-plus/network";
 import { loadWasmFile } from "../../../utils";
 import { SorobanTokenHandler } from "stellar-plus/lib/stellar-plus/asset";
-import { connect } from "http2";
-import { SimulatedInvocationOutput } from "stellar-plus/lib/stellar-plus/core/pipelines/simulate-transaction/types";
 
 // This use case demonstrates how to create a new token using the
 // Soroban Token Handler to upload a WASM implementation of
