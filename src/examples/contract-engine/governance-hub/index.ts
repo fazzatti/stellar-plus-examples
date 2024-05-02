@@ -5,6 +5,7 @@ import { ContractEngine } from "stellar-plus/lib/stellar-plus/core/contract-engi
 import { loadWasmFile } from "../../../utils";
 import { DebugPlugin } from "stellar-plus/lib/stellar-plus/utils/pipeline/plugins/generic/debug";
 import { SorobanAuthPipelinePlugin } from "stellar-plus/lib/stellar-plus/core/pipelines/soroban-auth/types";
+import { StellarPlus } from "stellar-plus";
 
 // Specification of the contract interface. Contains the encoded data
 // of the contract methods and their parameters. This is used by the
