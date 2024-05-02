@@ -1,5 +1,6 @@
 import { account } from "./examples/account";
 import { classicAsset } from "./examples/classic-asset";
+import { contractEngine } from "./examples/contract-engine";
 import { errorHandling } from "./examples/error-handling";
 import { plugins } from "./examples/plugins";
 import { RPC } from "./examples/rpc";
@@ -11,10 +12,11 @@ dotenv.config();
 const examples = {
   account,
   classicAsset,
+  contractEngine,
   plugins,
-  soroban,
   RPC,
+  soroban,
   errorHandling,
 };
 
-examples.RPC.validationCloudDemo();
+examples.contractEngine.governanceHubDemo();
