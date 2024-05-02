@@ -48,6 +48,9 @@ For detailed documentation of the `stellar-plus` library, visit [Stellar-Plus Do
 
 The source code is available at [GitHub - stellar-plus](https://github.com/CheesecakeLabs/stellar-plus/).
 
+Refer to thhe following video on how to take the first steps with Stellar Plus:
+[![Watch the video](https://img.youtube.com/vi/nKtsSbTwMI8/hqdefault.jpg)](https://www.youtube.com/watch?v=nKtsSbTwMI8)
+
 ## Support
 
 For support, open an issue on the GitHub repository or reach out via the project's community channels.
